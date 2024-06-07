@@ -44,6 +44,26 @@ a {
   left: 30%;
   font-size: 100px;
 }
+h1 {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 30px;
+}
+.grid-items {
+  background-color: #f8f8ff;
+  box-shadow: 3px 2px 10px black;
+  padding: 10px;
+}
 footer {
   background-color: gray;
   padding: 2px;
