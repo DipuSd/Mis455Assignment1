@@ -54,15 +54,23 @@ p {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   row-gap: 20px;
   column-gap: 20px;
   padding: 30px;
 }
 .grid-items {
+  display: flex;
+  flex-direction: row;
   background-color: #f8f8ff;
   box-shadow: 3px 2px 10px black;
   padding: 10px;
+}
+.grid-items img {
+  height: 160px;
+  margin-right: 5px;
+  padding-right: 50px;
+  border-right: 2px solid black;
 }
 footer {
   background-color: gray;
