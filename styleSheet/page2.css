@@ -15,7 +15,7 @@ nav {
   transition: background-color ease-in-out 450ms, color ease-in-out 450ms;
 }
 
-#Everest {
+#current-page {
   background-color: black;
   color: white;
 }
@@ -41,12 +41,21 @@ a {
   font-family: "JetBrains Mono", monospace;
   position: absolute;
   top: 1%;
-  left: 30%;
+  left: 16%;
   font-size: 100px;
 }
 h1 {
   font-family: "Roboto Mono", monospace;
   text-align: center;
+}
+.image-holder {
+  display: flex;
+  justify-content: center;
+}
+.image-holder img {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px black;
 }
 p {
   font-family: "Roboto Mono", monospace;
