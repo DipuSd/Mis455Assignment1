@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  background-color: green;
+  background-color: gray;
   display: flex;
   position: sticky;
   top: 0;
@@ -12,8 +12,11 @@ nav {
 
 .navItems {
   padding: 10px;
-  margin-right: 1px;
   transition: background-color ease-in-out 450ms, color ease-in-out 450ms;
+}
+#nav-home {
+  background-color: black;
+  color: white;
 }
 .navItems:hover {
   background-color: black;
@@ -55,6 +58,7 @@ p {
   column-gap: 20px;
   row-gap: 100px;
   padding: 30px;
+  margin-bottom: 100px;
 }
 
 .grid-items {
@@ -76,4 +80,8 @@ p {
 }
 .grid-items p {
   font-size: 20px;
+}
+footer {
+  background-color: gray;
+  padding: 2px;
 }
