@@ -19,7 +19,7 @@ nav {
   background-color: black;
   color: white;
 }
-
+/*disabling the text decoration for the navbar items*/
 a {
   text-decoration: none;
   color: black;
@@ -69,7 +69,7 @@ p {
   box-shadow: none;
   border: 1px solid grey;
 }
-
+/*resizing the poloroid images in the grid */
 .grid-container img {
   max-width: 590px;
   object-fit: cover;
