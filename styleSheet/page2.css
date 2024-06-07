@@ -14,7 +14,7 @@ nav {
   padding: 10px;
   transition: background-color ease-in-out 450ms, color ease-in-out 450ms;
 }
-#nav-home {
+#Everest {
   background-color: black;
   color: white;
 }
@@ -40,45 +40,8 @@ a {
   font-family: "JetBrains Mono", monospace;
   position: absolute;
   top: 1%;
-  left: 16%;
+  left: 35%;
   font-size: 100px;
-}
-
-h1 {
-  font-family: "Roboto Mono", monospace;
-  text-align: center;
-}
-p {
-  font-family: "Roboto Mono", monospace;
-  text-align: center;
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 20px;
-  row-gap: 20px;
-  padding: 30px;
-  margin-bottom: 100px;
-}
-
-.grid-items {
-  background-color: #f8f8ff;
-  box-shadow: 3px 2px 10px black;
-  padding: 10px;
-  cursor: pointer;
-  transition: box-shadow ease-in-out 450ms, border ease-in-out 450ms;
-  border-radius: 5px;
-}
-.grid-items:hover {
-  box-shadow: none;
-}
-/*resizing the polaroid images in the grid */
-.grid-container img {
-  max-width: 590px;
-  object-fit: cover;
-}
-.grid-items p {
-  font-size: 20px;
 }
 footer {
   background-color: gray;
