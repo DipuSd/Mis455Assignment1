@@ -14,6 +14,7 @@ nav {
   padding: 10px;
   transition: background-color ease-in-out 450ms, color ease-in-out 450ms;
 }
+/*current page in navbar highlighter*/
 #nav-home {
   background-color: black;
   color: white;
